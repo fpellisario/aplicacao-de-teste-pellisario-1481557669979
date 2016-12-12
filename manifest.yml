@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: aplicacao-de-teste-pellisario
+  host: aplicacao-de-teste-pellisario
+  disk_quota: 1024M
+  services:
+  - aplicacao-de-teste-pellisario-AdvancedMobileAccess
+  - aplicacao-de-teste-pellisario-imfpush
+  - aplicacao-de-teste-pellisario-cloudantNoSQLDB
+  - availability-monitoring-auto
